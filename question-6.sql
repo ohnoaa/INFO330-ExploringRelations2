@@ -1,6 +1,6 @@
 -- Find tracks (id, name and composer) that are part of a line in an invoice.
 
-THIS IS FOR INVOICES (MIGHT CHANGE)
+-- THIS IS FOR INVOICES (MIGHT CHANGE)
 
 SELECT tracks.TrackId, tracks.Name, tracks.Composer, invoices.*
 FROM tracks
